@@ -1,0 +1,11 @@
+body{
+    padding-top: 70px;
+}
+.horizontal-padding{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.vertical-padding{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;   
+    background-color:#222 ;
+    color: white;
+    
+}
+.header{
+    background-color: #141414;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    font-family: 'Smooch', cursive;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover{
+    background-color: #4e0c3b;
+    transition: 0.5s;
+}
+
+.home-info{
+    margin-bottom: 0px;
+}
+.home{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px;
+    justify-content: space-between;
+    color: white;
+    
+}
+.home-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 30px 20px;
+    color: white;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Smooch&display=swap');
+.home-details{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 500px;
+    margin: 10px ;
+}
+.home-img{
+    width:80%;
+    height: auto;
+    margin: 50px;
+    display: block;
+}
+.xiami-title{
+    font-size: 40px;
+    text-align: center;
+}
+.xiami-img{
+    display: block;
+    margin:  30px auto;
+    width: 75%;
+    height: auto;
+    
+}
+.xiami-text{
+    text-align: justify;
+    margin: 10px;
+    
+}
